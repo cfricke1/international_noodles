@@ -1,0 +1,195 @@
+
+.white_space{
+	white-space: pre-wrap;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 20px;
+}
+
+.banner {
+	display: block;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.activated {
+ background-color: rgb(0,150,50);
+}
+
+.img-info {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.img-info table, td, th {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+.img-info table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+.img-info td, th {
+	padding: 15px;
+	font-family: arial;
+}
+.img-info th {
+	font-size: 32px;
+}
+.img-info td {
+	font-size: 22px;
+}
+.img-info li {
+	font-size: 20px;
+}
+
+.img-info2 {
+	width: 50%;
+	margin-bottom: 100px;
+}
+
+.img-info2 form {
+	background-color: #333
+}
+
+.img-info2 form fieldset {
+	color: white;
+	padding: 20px;
+}
+
+.img-info2 form fieldset input, textarea {
+	margin-bottom: 20px;
+}
+
+.list {
+	width: 100%;
+}
+
+.list ol {
+	margin: 20px;
+	margin-bottom: 100px;
+	background-color: #333;
+	color: white;
+	width: 50%;
+	padding: 50px;
+	font-size: 25px;
+}
+.list ol li {
+	margin-bottom: 20px;
+}
+.list h2 {
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+.list h4{
+	font-size: 30px;
+}
+.list h6{
+	font-size: 15px;
+}
+.list h5 {
+	font-size: 20px;
+}
+.list h3 {
+	font-size: 40px;
+}
+.list ul li {
+	font-size: 20px;
+	font-family: arial;
+}
+.img-info h2 {
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.img-info p {
+	padding: 30px;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.logo {
+	width: 100%;
+	display: none;
+}
+
+.nav li {
+	float: left;
+	list-style: none;
+	width: 12.5%;
+	margin: 0px;
+	padding: 0px;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 16px;
+  margin: 0px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #333
+}
+
+.footer p{
+	color: white;
+	font-size: 16px;
+	font-family: arial;
+	padding: 10px
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial,sans-serif;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(120,120,145);
+  /* display: inline-block; */
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+nav li a:hover:not(.active):not(.activated) {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #111;
+  color: rgb(240,240,255);
+}
+
+@media only screen and (min-width: 768px) {
+	.nav li a {
+		font-size: 20px;
+	}
+	.img-info p{
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+	
+@media only screen and (min-width: 1000px) {
+	.img-info p{
+		font-size: 24px;
+		line-height: 30px;
+		width: 75%;
+	}
+}

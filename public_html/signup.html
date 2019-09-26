@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<!-- Carter Fricke -->
-
 <html lang="en">
-
-	<head>
-		<meta charset="utf-8">
-
-		<title>Sign Up Form</title>
-	</head>
-
-	<body>
-		<img src="img/non_food/in_logo.png" alt="IN Logo"/>
-		<nav>
+<head>
+  <meta charset="utf-8">
+  <title>International Noodles!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+  <img class= "banner" src="img/non_food/banner.png" alt="Banner"/>
+  <div class="nav">
+    <nav>
             <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
                 <li>
                     <a href="interactive_map_page.html">Interactive Map</a>
                 </li>
@@ -29,26 +30,37 @@
                     <a href="about_page.html">About Page</a>
                 </li>
                 <li>
-                	<a href="index.html">Home Page</a>
+                  <a class="activated" href="signup.html">Sign Up Form</a>
+                </li>
+                  <li>
+                    <a href="contact_page.html">Contact Us</a>
                 </li>
             </ul>
         </nav>
-
-		<h1>Sign Up</h1>
-			<form action="index.html">
-				First Name:<br>
-				<input type="text" name="firstname"><br>
-				Last Name:<br>
-				<input type="text" name="lastname"><br>
-				Gender:<br>
-				<input type="radio" name="gender" value="male" checked> Male<br>
-  				<input type="radio" name="gender" value="female"> Female<br>
-  				<input type="radio" name="gender" value="other"> Other<br>
-  				<input type="submit" value="Sign Up">
-  			</form>
-		<footer>
-        <p>&copy;International Noodles</p>
-        <p>"Contact us at internationalnoodles&commat;gmail&period;com"</p>
-        </footer>
-	</body>
+  </div>
+  <div class="wrapper">
+    <article class="img-info2">
+      <h2>Sign Up</h2>
+            <form action="index.html">
+                <fieldset>
+                First Name:<br>
+                <input type="text" name="firstname"><br>
+                Last Name:<br>
+                <input type="text" name="lastname"><br>
+                Gender:<br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <input type="submit" value="Sign Up">
+                </fieldset>
+            </form>
+    </article>
+  </div>
+  <div class="footer">
+    <footer>
+        <p class="white_space">&copy;International Noodles             Contact us at internationalnoodles@gmail.com</p>
+    </footer>
+  </div>
+</body>
 </html>
+
