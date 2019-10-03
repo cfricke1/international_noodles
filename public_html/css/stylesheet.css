@@ -42,12 +42,6 @@ header {
     margin-left: 125px;
 }
 
-/*similar to .meat, but deals with recipe columns*/
-.column_control{
-    margin-left: 125px;
-    height: 3400px
-}
-
 /*header and footer*/
 .earth_png {
     display: inline;
@@ -63,6 +57,7 @@ header {
 }
 
 footer {
+    display: block;
     margin-left: 125px;
     float: left;
 }
@@ -128,7 +123,6 @@ nav li a.active {
 .columnA {
     width: 45%;
     display: inline-block;
-    height: 3000px;
     float: left;
     
     padding-right: 5%;
@@ -142,6 +136,5 @@ nav li a.active {
 .columnB {
     width: 45%;
     display: inline-block;
-    height: 3000px;
     float: right;
 }
