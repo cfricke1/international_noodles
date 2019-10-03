@@ -124,7 +124,7 @@ nav li a.active {
     background-color: #003200;
 }
 
-input[type=text], select, textarea{
+input[type=text], input[type=email], select, textarea{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -153,7 +153,6 @@ input[type=submit]:hover {
 }
 
 .container {
-  background-color: #f2f2f2;
   padding: 20px;
 }
 
