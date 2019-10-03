@@ -1,3 +1,4 @@
+/* main elements*/
 body {
     background: LightSteelBlue;
     background-image: url("../img/non_food/background_image.png");
@@ -15,6 +16,7 @@ header {
     border-color: MidnightBlue;
 }
 
+/*login elements*/
 .login_button {
     background-color: MidnightBlue;
     display: inline-block;
@@ -35,10 +37,18 @@ header {
     background-color: #212175;
 }
 
+/*pushes most of the page to the side for the sake of the menu bar*/
 .meat {
     margin-left: 125px;
 }
 
+/*similar to .meat, but deals with recipe columns*/
+.column_control{
+    margin-left: 125px;
+    height: 3400px
+}
+
+/*header and footer*/
 .earth_png {
     display: inline;
     border-radius: 30%
@@ -54,8 +64,10 @@ header {
 
 footer {
     margin-left: 125px;
+    float: left;
 }
 
+/*font stuff*/
 h1 {
     color: #004000;
     text-align: center;
@@ -80,6 +92,7 @@ li {
     font-family: "Georgia", serif;
 }
 
+/*navigation bar formatting*/
 nav ul {
     list-style-type: none;
     margin: -8px;
@@ -109,4 +122,26 @@ nav li a:hover {
 nav li a.active {
     color: LightGreen;
     background-color: #003200;
+}
+
+/*recipe columns*/
+.columnA {
+    width: 45%;
+    display: inline-block;
+    height: 3000px;
+    float: left;
+    
+    padding-right: 5%;
+    border: 0px;
+    border-right: 5px;
+    border-style: solid;
+    
+    border-color: MidnightBlue;
+}
+
+.columnB {
+    width: 45%;
+    display: inline-block;
+    height: 3000px;
+    float: right;
 }
