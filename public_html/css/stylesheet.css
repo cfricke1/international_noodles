@@ -28,6 +28,7 @@ header {
     border-radius: 6px;
 }
 
+
 .login_link {
     color: white;
     padding: 10px;
@@ -36,6 +37,7 @@ header {
 .login_link:hover {
     color: Aquamarine;
     background-color: #212175;
+
 }
 
 /*pushes most of the page to the side for the sake of the menu bar*/
