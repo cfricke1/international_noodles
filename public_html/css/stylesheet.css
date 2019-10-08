@@ -201,6 +201,14 @@ input[type=submit]:hover {
     float: right;
 }
 
+.divi_cont {
+    border: 0px;
+    border-top: 2px;
+    border-style: solid;
+    
+    border-color: MidnightBlue;
+}
+
 table {
     background-color: LightSteelBlue;
     border: 1px solid #222;
