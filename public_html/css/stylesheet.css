@@ -200,3 +200,21 @@ input[type=submit]:hover {
     display: inline-block;
     float: right;
 }
+
+table {
+    background-color: LightSteelBlue;
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+  border-bottom: 1px solid #222;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
