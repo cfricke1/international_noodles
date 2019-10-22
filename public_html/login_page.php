@@ -8,7 +8,7 @@
   </head>
 
   <body>
-   <form action="index.html">
+   <form action="index.php">
      Username:<br>
      <input type="text" name="username"><br>
      Password:<br>
@@ -16,11 +16,7 @@
      <input type="submit" value="Login">
    </form>
   
-   <footer>
-    <hr>
-    <p>&copy;International Noodles</p>
-    <p>Contact us at internationalnoodles&commat;gmail&period;com</p>
-   </footer>
+   <?php include '../resources/footer.php'; ?>
 
   </body>
 
